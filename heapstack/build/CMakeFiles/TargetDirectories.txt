@@ -1,0 +1,14 @@
+/home/ludvig/ws/pizeroschool/heapstack/build/CMakeFiles/edit_cache.dir
+/home/ludvig/ws/pizeroschool/heapstack/build/CMakeFiles/rebuild_cache.dir
+/home/ludvig/ws/pizeroschool/heapstack/build/CMakeFiles/list_install_components.dir
+/home/ludvig/ws/pizeroschool/heapstack/build/CMakeFiles/install.dir
+/home/ludvig/ws/pizeroschool/heapstack/build/CMakeFiles/install/local.dir
+/home/ludvig/ws/pizeroschool/heapstack/build/CMakeFiles/install/strip.dir
+/home/ludvig/ws/pizeroschool/heapstack/build/src/CMakeFiles/heap.dir
+/home/ludvig/ws/pizeroschool/heapstack/build/src/CMakeFiles/stack.dir
+/home/ludvig/ws/pizeroschool/heapstack/build/src/CMakeFiles/edit_cache.dir
+/home/ludvig/ws/pizeroschool/heapstack/build/src/CMakeFiles/rebuild_cache.dir
+/home/ludvig/ws/pizeroschool/heapstack/build/src/CMakeFiles/list_install_components.dir
+/home/ludvig/ws/pizeroschool/heapstack/build/src/CMakeFiles/install.dir
+/home/ludvig/ws/pizeroschool/heapstack/build/src/CMakeFiles/install/local.dir
+/home/ludvig/ws/pizeroschool/heapstack/build/src/CMakeFiles/install/strip.dir

@@ -4,7 +4,8 @@
 /home/ludvig/ws/pizeroschool/helloworld/build/CMakeFiles/install.dir
 /home/ludvig/ws/pizeroschool/helloworld/build/CMakeFiles/install/local.dir
 /home/ludvig/ws/pizeroschool/helloworld/build/CMakeFiles/install/strip.dir
-/home/ludvig/ws/pizeroschool/helloworld/build/src/CMakeFiles/hello.dir
+/home/ludvig/ws/pizeroschool/helloworld/build/src/CMakeFiles/hello1.dir
+/home/ludvig/ws/pizeroschool/helloworld/build/src/CMakeFiles/hello2.dir
 /home/ludvig/ws/pizeroschool/helloworld/build/src/CMakeFiles/edit_cache.dir
 /home/ludvig/ws/pizeroschool/helloworld/build/src/CMakeFiles/rebuild_cache.dir
 /home/ludvig/ws/pizeroschool/helloworld/build/src/CMakeFiles/list_install_components.dir

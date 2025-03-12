@@ -162,25 +162,40 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/hello.dir/rule:
-	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hello.dir/rule
-.PHONY : src/CMakeFiles/hello.dir/rule
+src/CMakeFiles/hello1.dir/rule:
+	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hello1.dir/rule
+.PHONY : src/CMakeFiles/hello1.dir/rule
 
 # Convenience name for target.
-hello: src/CMakeFiles/hello.dir/rule
-.PHONY : hello
+hello1: src/CMakeFiles/hello1.dir/rule
+.PHONY : hello1
 
 # fast build rule for target.
-hello/fast:
-	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello.dir/build.make src/CMakeFiles/hello.dir/build
-.PHONY : hello/fast
+hello1/fast:
+	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello1.dir/build.make src/CMakeFiles/hello1.dir/build
+.PHONY : hello1/fast
+
+# Convenience name for target.
+src/CMakeFiles/hello2.dir/rule:
+	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hello2.dir/rule
+.PHONY : src/CMakeFiles/hello2.dir/rule
+
+# Convenience name for target.
+hello2: src/CMakeFiles/hello2.dir/rule
+.PHONY : hello2
+
+# fast build rule for target.
+hello2/fast:
+	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello2.dir/build.make src/CMakeFiles/hello2.dir/build
+.PHONY : hello2/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello.dir/build.make src/CMakeFiles/hello.dir/main.cpp.o
+	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello1.dir/build.make src/CMakeFiles/hello1.dir/main.cpp.o
+	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello2.dir/build.make src/CMakeFiles/hello2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -188,7 +203,8 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello.dir/build.make src/CMakeFiles/hello.dir/main.cpp.i
+	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello1.dir/build.make src/CMakeFiles/hello1.dir/main.cpp.i
+	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello2.dir/build.make src/CMakeFiles/hello2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -196,7 +212,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello.dir/build.make src/CMakeFiles/hello.dir/main.cpp.s
+	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello1.dir/build.make src/CMakeFiles/hello1.dir/main.cpp.s
+	cd /home/ludvig/ws/pizeroschool/helloworld/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello2.dir/build.make src/CMakeFiles/hello2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -211,7 +228,8 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... hello"
+	@echo "... hello1"
+	@echo "... hello2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -78,7 +78,8 @@ clean: src/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/hello.dir/all
+src/all: src/CMakeFiles/hello1.dir/all
+src/all: src/CMakeFiles/hello2.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -86,34 +87,61 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/hello.dir/clean
+src/clean: src/CMakeFiles/hello1.dir/clean
+src/clean: src/CMakeFiles/hello2.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/hello.dir
+# Target rules for target src/CMakeFiles/hello1.dir
 
 # All Build rule for target.
-src/CMakeFiles/hello.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello.dir/build.make src/CMakeFiles/hello.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello.dir/build.make src/CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ludvig/ws/pizeroschool/helloworld/build/CMakeFiles --progress-num=1,2 "Built target hello"
-.PHONY : src/CMakeFiles/hello.dir/all
+src/CMakeFiles/hello1.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello1.dir/build.make src/CMakeFiles/hello1.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello1.dir/build.make src/CMakeFiles/hello1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ludvig/ws/pizeroschool/helloworld/build/CMakeFiles --progress-num=1,2 "Built target hello1"
+.PHONY : src/CMakeFiles/hello1.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/hello.dir/rule: cmake_check_build_system
+src/CMakeFiles/hello1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ludvig/ws/pizeroschool/helloworld/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hello.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hello1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ludvig/ws/pizeroschool/helloworld/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/hello.dir/rule
+.PHONY : src/CMakeFiles/hello1.dir/rule
 
 # Convenience name for target.
-hello: src/CMakeFiles/hello.dir/rule
-.PHONY : hello
+hello1: src/CMakeFiles/hello1.dir/rule
+.PHONY : hello1
 
 # clean rule for target.
-src/CMakeFiles/hello.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello.dir/build.make src/CMakeFiles/hello.dir/clean
-.PHONY : src/CMakeFiles/hello.dir/clean
+src/CMakeFiles/hello1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello1.dir/build.make src/CMakeFiles/hello1.dir/clean
+.PHONY : src/CMakeFiles/hello1.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/hello2.dir
+
+# All Build rule for target.
+src/CMakeFiles/hello2.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello2.dir/build.make src/CMakeFiles/hello2.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello2.dir/build.make src/CMakeFiles/hello2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ludvig/ws/pizeroschool/helloworld/build/CMakeFiles --progress-num=3,4 "Built target hello2"
+.PHONY : src/CMakeFiles/hello2.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/hello2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ludvig/ws/pizeroschool/helloworld/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hello2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ludvig/ws/pizeroschool/helloworld/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/hello2.dir/rule
+
+# Convenience name for target.
+hello2: src/CMakeFiles/hello2.dir/rule
+.PHONY : hello2
+
+# clean rule for target.
+src/CMakeFiles/hello2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/hello2.dir/build.make src/CMakeFiles/hello2.dir/clean
+.PHONY : src/CMakeFiles/hello2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

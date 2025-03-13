@@ -4,15 +4,15 @@
 int main() {
     int *ptr = malloc(sizeof(int) * 10);
     if (!ptr) {
-        fprintf(stderr, "ERROR: Heap allocation failed \\n");
+        fprintf(stderr, "ERROR: Heap allocation failed \n");
 	return 0;
     }
 
-    printf("INFO: Heap memory allocated successfully\\n");
+    printf("INFO: Heap memory allocated successfully\n");
     free(ptr);
-    printf("INFO: Heap memory freed\\n");
+    printf("INFO: Heap memory freed\n");
 
-    fprintf(stderr, "WARNING: Heap allocation test complete\\n");
+    fprintf(stderr, "WARNING: Heap allocation test complete\n");
 
     return 0;
 }

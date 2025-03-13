@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/heap.dir/heap.c.o -o /bin/heap 
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/heap.dir/heap.c.o -o /Users/ludvignorin/ws/pizeroschool/heapstack/bin/heap

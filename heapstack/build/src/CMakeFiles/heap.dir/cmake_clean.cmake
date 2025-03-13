@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/bin/heap"
-  "/bin/heap.pdb"
+  "/Users/ludvignorin/ws/pizeroschool/heapstack/bin/heap"
+  "/Users/ludvignorin/ws/pizeroschool/heapstack/bin/heap.pdb"
   "CMakeFiles/heap.dir/heap.c.o"
   "CMakeFiles/heap.dir/heap.c.o.d"
 )

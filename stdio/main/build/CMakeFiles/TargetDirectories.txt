@@ -1,0 +1,14 @@
+/home/ludvig/ws/pizeroschool/stdio/main/build/CMakeFiles/edit_cache.dir
+/home/ludvig/ws/pizeroschool/stdio/main/build/CMakeFiles/rebuild_cache.dir
+/home/ludvig/ws/pizeroschool/stdio/main/build/CMakeFiles/list_install_components.dir
+/home/ludvig/ws/pizeroschool/stdio/main/build/CMakeFiles/install.dir
+/home/ludvig/ws/pizeroschool/stdio/main/build/CMakeFiles/install/local.dir
+/home/ludvig/ws/pizeroschool/stdio/main/build/CMakeFiles/install/strip.dir
+/home/ludvig/ws/pizeroschool/stdio/main/build/src/CMakeFiles/hello.dir
+/home/ludvig/ws/pizeroschool/stdio/main/build/src/CMakeFiles/hello2.dir
+/home/ludvig/ws/pizeroschool/stdio/main/build/src/CMakeFiles/edit_cache.dir
+/home/ludvig/ws/pizeroschool/stdio/main/build/src/CMakeFiles/rebuild_cache.dir
+/home/ludvig/ws/pizeroschool/stdio/main/build/src/CMakeFiles/list_install_components.dir
+/home/ludvig/ws/pizeroschool/stdio/main/build/src/CMakeFiles/install.dir
+/home/ludvig/ws/pizeroschool/stdio/main/build/src/CMakeFiles/install/local.dir
+/home/ludvig/ws/pizeroschool/stdio/main/build/src/CMakeFiles/install/strip.dir

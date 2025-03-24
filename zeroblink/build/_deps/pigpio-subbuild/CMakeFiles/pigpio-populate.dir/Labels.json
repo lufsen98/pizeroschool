@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-subbuild/CMakeFiles/pigpio-populate"
+		},
+		{
+			"file" : "/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-subbuild/CMakeFiles/pigpio-populate.rule"
+		},
+		{
+			"file" : "/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-subbuild/CMakeFiles/pigpio-populate-complete.rule"
+		},
+		{
+			"file" : "/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-subbuild/pigpio-populate-prefix/src/pigpio-populate-stamp/pigpio-populate-build.rule"
+		},
+		{
+			"file" : "/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-subbuild/pigpio-populate-prefix/src/pigpio-populate-stamp/pigpio-populate-configure.rule"
+		},
+		{
+			"file" : "/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-subbuild/pigpio-populate-prefix/src/pigpio-populate-stamp/pigpio-populate-download.rule"
+		},
+		{
+			"file" : "/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-subbuild/pigpio-populate-prefix/src/pigpio-populate-stamp/pigpio-populate-install.rule"
+		},
+		{
+			"file" : "/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-subbuild/pigpio-populate-prefix/src/pigpio-populate-stamp/pigpio-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-subbuild/pigpio-populate-prefix/src/pigpio-populate-stamp/pigpio-populate-patch.rule"
+		},
+		{
+			"file" : "/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-subbuild/pigpio-populate-prefix/src/pigpio-populate-stamp/pigpio-populate-test.rule"
+		},
+		{
+			"file" : "/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-subbuild/pigpio-populate-prefix/src/pigpio-populate-stamp/pigpio-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pigpio-populate"
+		],
+		"name" : "pigpio-populate"
+	}
+}

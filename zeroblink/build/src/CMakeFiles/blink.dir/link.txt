@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/blink.dir/main.c.o -o /home/ludvig/ws/pizeroschool/zeroblink/bin/blink  -Wl,-rpath,/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-build ../_deps/pigpio-build/libpigpio.so -lpthread -lrt 

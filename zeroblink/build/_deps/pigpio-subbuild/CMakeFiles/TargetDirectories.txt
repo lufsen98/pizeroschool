@@ -1,0 +1,3 @@
+/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-subbuild/CMakeFiles/pigpio-populate.dir
+/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-subbuild/CMakeFiles/edit_cache.dir
+/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-subbuild/CMakeFiles/rebuild_cache.dir

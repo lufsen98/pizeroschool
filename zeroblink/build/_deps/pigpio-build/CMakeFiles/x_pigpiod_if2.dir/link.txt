@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/x_pigpiod_if2.dir/x_pigpiod_if2.c.o -o /home/ludvig/ws/pizeroschool/zeroblink/bin/x_pigpiod_if2  -Wl,-rpath,/home/ludvig/ws/pizeroschool/zeroblink/build/_deps/pigpio-build libpigpiod_if2.so -Wl,-Bstatic -lrt -Wl,-Bdynamic 
